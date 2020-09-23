@@ -1,6 +1,11 @@
 <html>
 
 <head>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link href="https://fonts.googleapis.com/css2?family=Bitter:ital,wght@0,300;0,400;0,500;1,400&display=swap"
     rel="stylesheet">
@@ -15,10 +20,13 @@
   <div>
     <div id="div1">
       <input type="image" id='estyimg' src="https://cdn.iconscout.com/icon/free/png-512/etsy-282219.png">
-      <input type="text" id="search-bar" placeholder="Search for items or shops">
-      <input type="image" style="width: 20px; height: auto;"
-        src="https://www.flaticon.com/svg/static/icons/svg/622/622669.svg">
+
+      <span><input type="text" id="search-bar" placeholder="Search for items or shops">
+        <input type="image" style="width: 20px; height: auto;"
+          src="https://www.flaticon.com/svg/static/icons/svg/622/622669.svg"></span>
+
       <input type="image" id="cartimg" src="cart.png">
+      <span class="tooltiptext">Tooltip text</span>
       <input type="button" id="sing-btn" style="float: right; margin-right: 30px; " value="Sign in">
 
     </div>
@@ -39,10 +47,27 @@
   <div>
     <h1 id="h1findthings">Find things you'll love. Support independent sellers. Only on Etsy.</h1>
   </div>
-  <div id="div2img"></div>
+  <div id="div2img">
+    <div style="float: left; width: 46%; margin-left:3%; margin-top: 1%;">
+      <h1 id="jewlery">Personalized jewelry shines a little brighter</h1>
+      <button class="btn-shop">
+        <span id="shop">Shop custom jewelry</span>
+        <span><img src="https://www.flaticon.com/svg/static/icons/svg/32/32213.svg"
+            style="width: 8px; margin-left: 3px;">
+        </span>
+      </button>
+    </div>
+  </div>
 
 
-
+  <div class="d-flex justify-content-around" id="div3">
+    <p><img class="checkimg" src="check.png">Unique everything<br><span style=>We have millions of one-of-a-kind items,
+        so you can find whatever you need (or really, really want).</span></p>
+    <p><img class="checkimg" src="check.png">Independent sellers<br><span style=>Buy directly from someone who put their
+        heart and soul into making something special.</span></p>
+    <p><img class="checkimg" src="check.png">Secure shopping<br><span>We use best-in-class technology to protect your
+        transactions.</span></p>
+  </div>
 
 
 </body>
