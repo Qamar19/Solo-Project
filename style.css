@@ -1,6 +1,7 @@
 html{
     font-family: "Guardian-EgypTT",serif;
 
+
 }
 .bar-div{
     width: 100%;
@@ -140,9 +141,13 @@ ul {
   #div2img{
     background-image: url(img1.jpg); 
     height: 250px;
+    width: 100%;
     background-repeat: no-repeat;
     background-position:cover;
     background-size: contain;
+    margin-bottom: 50px;
+    box-sizing: border-box;
+
 
   }
 
@@ -175,19 +180,19 @@ ul {
   background-color: #f2f2f2f1 ;
 }
 
-#div3{
-  height: 255px;
+#div3, #popular-div{
   width: 100%;
-  background-color: white;
+  background-color: rgb(255, 255, 255);
   text-align: center;
-  display: block;
-  float: left;
+  /* display: block; */
+  /* float: left; */
   color: black;
-  padding-top: 30px;
+  /* padding-top: 30px; */
   font-family: -apple-system,BlinkMacSystemFont,"Roboto","Droid Sans","Segoe UI","Helvetica",Arial,sans-serif;
   font-weight: 300;
   line-height: 1.6;
   letter-spacing: normal;
+
 }
 
 .checkimg{
@@ -202,3 +207,77 @@ p{
 p span{
   font-size: 14px;
 }
+
+.popular-imgs, .gifts-imgs{
+  width: 180px;
+  height: 150px;
+  border-radius: 2px;
+  margin-bottom: 4px;
+  /* padding-left: 10px;
+  padding-right: 10px; */
+  
+
+}
+
+#popular-h1{
+font-size: 25px;
+  font-family: -apple-system,BlinkMacSystemFont,"Roboto","Droid Sans","Segoe UI","Helvetica",Arial,sans-serif;
+  margin-top: 10px;
+  margin-bottom: 35px;
+
+}
+#img-container-div, #gifts-container-div{
+  margin-right: 25px; 
+   margin-left: 15px;
+   cursor:pointer;
+
+
+}
+#popular-div div{
+  width: 180px;
+
+  
+}
+.spanimg{
+  width: 180px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.popular-imgs:hover{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(212, 194, 194, 0.411);
+}
+
+h4 span{
+  font-size: 12px;
+  margin-left: 8px;
+  border-radius: 24px;
+  background-color: #D4E9D7;
+  padding-left: 8px;
+  padding-right: 8px;
+  font-weight: bold;
+}
+
+#bestseller-p{
+  font-size: 12px;
+  border-radius: 24px;
+  font-weight: bold;
+  background-color: #FDEBD2;
+  color: black;
+  width: 84px;
+}
+#giftdiv{
+  margin-left: 30px;
+  font-size: 18px;
+  font-weight: bold;
+
+}
+.giftdiv{
+  width: 182px;
+  height: 200px;
+  border: 1px solid rgba(95, 93, 93, 0.548);
+  border-radius: 3px;
+
+}
+
