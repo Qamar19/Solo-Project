@@ -42,10 +42,16 @@ each(popularimg, function (element, i) {
     $('#popular-div').append(newdiv)
 })
 
-var giftsImg=['images/gift1.jpg', 'images/gift2.jpg','images/gift3.jpg','images/gift4.jpg','images/gift5.jpg','images/gift6.jpg']
+var giftsImg=[{imgurl:'images/gift1.jpg',imgtext:"Anniversary gifts"},
+{imgurl:'images/gift2.jpg',imgtext:"Gift for him"},
+{imgurl:'images/gift3.jpg',imgtext:"Gifts for her"},
+{imgurl:'images/gift4.jpg',imgtext:"Personalized gift ideas"},
+{imgurl:'images/gift5.jpg',imgtext:"Wedding gifts"},
+{imgurl:'images/gift6.jpg',imgtext:"Housewarming gifts"}]
 
 each(giftsImg, function (element, i) {
     console.log(element)
-    var newdiv = ("<div class='giftdiv'><img class='gifts-imgs' src='" + element + "'></div></div>")
+    var newdiv = ("<div class='giftdiv'><img class='gifts-imgs' src='" + element.imgurl 
+    + "'><div style='margin-top: 7px;'><span>"+ element.imgtext+"</span></div></div>")
     $('#Shopforgifts-div').append(newdiv)
 })

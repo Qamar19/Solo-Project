@@ -143,7 +143,6 @@ ul {
     height: 250px;
     width: 100%;
     background-repeat: no-repeat;
-    background-position:cover;
     background-size: contain;
     margin-bottom: 50px;
     box-sizing: border-box;
@@ -268,16 +267,113 @@ h4 span{
   width: 84px;
 }
 #giftdiv{
-  margin-left: 30px;
+  margin-left: 12px;
   font-size: 18px;
-  font-weight: bold;
+  font-weight: 500;
+  line-height: 20px;
+  
 
 }
 .giftdiv{
   width: 182px;
-  height: 200px;
+  height: 215px;
   border: 1px solid rgba(95, 93, 93, 0.548);
   border-radius: 3px;
 
 }
 
+#Shopforgifts-div span{
+  font-family: -apple-system,BlinkMacSystemFont,"Roboto","Droid Sans","Segoe UI","Helvetica",Arial,sans-serif;
+font-size: 14px;
+padding-left: 8px;
+}
+#whatisesty-div{
+  margin-top: 45px;
+  background-image: url(whatiseasty.png); 
+  height: 100%;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-sizing: border-box;
+  text-align: center;
+  
+}
+#h1Esty
+{font-size: 30px;
+  line-height: 36px;
+  font-family: 'Bitter', serif;
+  /* text-align: center; */
+  font-weight: 400;
+  letter-spacing: 0.5px;
+  padding-top: 65px;
+  font-size: 44px;
+  line-height: 48px;
+}
+
+#whatisesty-div a{
+  font-family: -apple-system,BlinkMacSystemFont,"Roboto","Droid Sans","Segoe UI","Helvetica",Arial,sans-serif;
+text-decoration-line: underline;
+color: black;
+
+}
+
+#whatisesty-div a:hover{
+color: grey;}
+
+.whatisesty-h1-p h3{
+  width: 350px;
+  font-family: 'Bitter', serif;
+  font-weight: 300;
+  font-size: 33px;
+  /* text-align: center; */
+}
+
+.whatisesty-h1-p p{
+  width: 350px;
+  font-family: -apple-system,BlinkMacSystemFont,"Roboto","Droid Sans","Segoe UI","Helvetica",Arial,sans-serif;
+  font-weight: 350;
+  font-size: 18px;
+  /* text-align: center; */
+}
+
+#question-div h1{
+  font-size: 22px;
+  font-family: -apple-system,BlinkMacSystemFont,"Roboto","Droid Sans","Segoe UI","Helvetica",Arial,sans-serif;
+}
+
+#question-div input{
+  margin-top: 10px;
+  font-weight: bold;
+  width: 180px;
+  height: 48px;
+  font-size: 16px;
+  border-radius: 24px;
+  border: 2px solid black;
+  background-color: rgb(253, 235, 210);;
+}
+
+#blue-div{
+  background-image: url(info.png); 
+  height: 100%;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-sizing: border-box;
+  text-align: center;
+  padding-top: 65px;
+  font-family: -apple-system,BlinkMacSystemFont,"Roboto","Droid Sans","Segoe UI","Helvetica",Arial,sans-serif;
+
+}
+
+#blue-div h2{
+  font-size: 17px;
+}
+#subscribe{
+  border: 2px solid palegreen;
+}
+
+
+footer{
+  background-color: rgb(35, 35, 71);
+  height: 70px;
+}
