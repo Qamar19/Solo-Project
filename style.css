@@ -96,13 +96,23 @@ ul {
 
   }
 
-  #search-bar{
-      width: 70%;
-      height: 50px;
+  .searchbar-span{
+    background-color:#f2f2f2 ;
+    width:70%; 
+    margin-top: 20px; 
+    border-radius: 25px;  
+    height: 50px;
+    display:inline-block;
+    margin-left: 20px;
+    padding-top: 5px;
+
+  }
+  #search-bar {
+      width: 95%;
+      height: 45px;
       border-radius: 25px 0px 0px 25px;
     border: none;
       padding-left: 20px;
-    margin-top: 20px;
       background-color:#f2f2f2 ;
       margin-bottom: 0px;
       text-align: justify;
@@ -349,7 +359,7 @@ color: grey;}
   font-size: 16px;
   border-radius: 24px;
   border: 2px solid black;
-  background-color: rgb(253, 235, 210);;
+  background-color: rgb(253, 235, 210);
 }
 
 #blue-div{
@@ -368,10 +378,61 @@ color: grey;}
 #blue-div h2{
   font-size: 17px;
 }
-#subscribe{
-  border: 2px solid palegreen;
+
+
+#sub-input{
+  margin: auto;
+  width: 38%;
+  height: 50px;
+  border-style: inset;
+  border-radius: 36px;
+  padding-top: 3px;
+  padding-bottom:0;
+  background-color: white;
+  font-family: -apple-system,BlinkMacSystemFont,"Roboto","Droid Sans","Segoe UI","Helvetica",Arial,sans-serif;
 }
 
+#sub-input input{
+  width: 80%;
+  height: 40px;
+  border: none;
+}
+
+.info-blue h5{
+  font-size: 16px;
+}
+.info-blue p{
+  font-size: 14px;
+}
+#downlod-span 
+{padding-top: 5px;
+  margin-top: 20px;
+  font-weight: bold;
+  width: 200px;
+  height: 40px;
+  font-size: 16px;
+  border-radius: 24px;
+  border: 2px solid rgb(253, 253, 253);
+  background-color: rgba(0, 0, 0, 0);
+  display:inline-block;
+
+}
+#downlod-span input{
+  background-color: rgba(0, 0, 0, 0);
+  border: none;
+  font-size: 13px;
+}
+
+.social-midea{
+  margin-top: 20px;
+}
+.social-midea img{
+  margin-right: 15px;
+}
+
+.social-midea img:hover{
+border-radius: 50%;
+background-color: rgba(255, 255, 255, 0.267);}
 
 footer{
   background-color: rgb(35, 35, 71);
