@@ -1,2 +1,2 @@
 # Qamar Solo-Project
-I build the same home page of Etsy website
+I build the same home page design of Etsy website
